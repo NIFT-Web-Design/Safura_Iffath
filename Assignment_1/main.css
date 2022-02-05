@@ -1,0 +1,779 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header {
+  background-color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px 0;
+}
+
+/* Navigation Bar */
+nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d4d4d4;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  transition: all .4s;
+}
+
+nav a#BlueBox {
+  color: white;
+  background-color: #107698;
+}
+
+nav a#OrangeColour {
+  color: orange;
+}
+
+nav a:hover {
+  color: white;
+}
+
+h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 50px;
+  text-shadow: 1px 2px 2px #000;
+}
+
+/* our services */
+main section#OurServices {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  background-position: center;
+}
+
+/*we serve higher edu and beyond */
+#ab {
+  display: block;
+  padding: 80px 80px;
+}
+
+.cd h2 {
+  display: block;
+  color: darkblue;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cd {
+  display: block;
+  margin: auto;
+}
+
+.cd p {
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 0px;
+  line-height: 1.2;
+}
+
+.givecolour {
+  color: orange;
+}
+/* variety of services */
+.ef {
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 36px;
+  color: darkblue;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.gh {
+  display: block;
+  color: grey;
+  font-size: 18px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  line-height: 1.2;
+}
+
+/* strategy consulting */
+.qr {
+  display: block;
+  font-size: 30px;
+  padding: 25px;
+  text-align: center;
+  background-color: #107698;
+  color: white;
+  min-height: 100px;
+  font-variant: small-caps;
+}
+
+.qr {
+  display: inline-block;
+  font-size: 18px padding: 20px 20px;
+}
+
+/* footer */
+/* .footer {
+  background-color: grey;
+  display: block;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* © Copyright 2022 Optimal Consulting, Inc. */
+/* .footersection {
+  display: inline-block;
+  width: 50%;
+  line-height: 1.4;
+} */
+
+/*   Optimal Consulting, Inc. */
+/* .footersectionone {
+  display: inline-block;
+  width: 50%;
+  line-height: 1.4;
+} */
+
+/* <!-- Trusted by --> */
+/* #end {
+  text-align: center;
+  display: block;
+  padding: 50px 0px;
+  background: #EDEff3;
+  width: 100%;
+}
+
+#end h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+#end img {
+  height: 100px;
+  text-align: center;
+} */
+
+/* .contactus {
+  padding-top: 90px;
+}
+
+.contactus .socialmedia {
+  min-width: 350px;
+  max-width: 350px;
+  border-top: 4px solid #dfdfe0;
+  text-align: center;
+  padding-top: 25px;
+  margin-top: 35px;
+  position: relative;
+  top: -500px;
+  right: -200px;
+}
+
+.contactus a #contactbutton {
+  border: 2px solid #fdb530;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  width: 165px;
+  padding: 15px 0px 15px 50px;
+  transition: 0.2s;
+  position: relative;
+  background-color: #107698;
+  margin-left: 65px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  display: inline-block;
+  top: -100px;
+  right: 50px;
+}
+
+.socialmedia #linkedin, #twitter, #fb {
+  border: 5px solid #dfdfe0;
+  border-radius: 50%;
+  margin: 0px 12px;
+  height: 5%;
+
+} */
+/* just in case */
+/* #getintouchpart {
+  height: 270px;
+}
+
+.vServices #getInTouch h2 {
+  color: #0a465b;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  padding: 5px 0px 30px 0px;
+}
+
+.getintouchone .container {
+  margin: 0 162px;
+  display: inline-block;
+  padding-bottom: 40px;
+}
+
+.getintouchone .container .contactUs {
+  display: inline-block;
+}
+
+.getintouchone .container .hover {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#picture {
+  border-radius: 50%;
+  border: 8px solid rgba(253, 181, 48, .7);
+  margin-left: 130px;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+
+#happytohelp {
+  color: grey;
+  font-weight: 500;
+  border-top: 1px solid #107698;
+  border-bottom: 1px solid #107698;
+  width: 260px;
+  padding: 10px 0px;
+  text-align: center;
+  line-height: 1.4;
+  display: inline-block;
+  margin-top: 16px;
+  position: relative;
+  bottom: 90px;
+  right: 190px;
+}
+
+.contactUs #separationLine {
+  position: absolute;
+  top: 2500px;
+  right: 400px;
+  height: 25%;
+}
+
+.bluebutton {
+  padding-top: 90px;
+}
+
+.bluebutton .connectContainer {
+  min-width: 350px;
+  max-width: 350px;
+  text-align: center;
+  border-top: 4px solid #dfdfe0;
+  margin-top: 35px;
+  padding-top: 25px;
+  position: relative;
+  top: -100px;
+  right: 50px;
+}
+
+.bluebutton a #button {
+  background-color: #107698;
+  border: 2px solid #FDB530;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  width: 165px;
+  padding: 15px 0px 15px 50px;
+  transition: .2s;
+  position: relative;
+  top: -100px;
+  right: 50px;
+  margin-left: 65px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  display: inline-block;
+}
+
+.connectContainer #linkedImg, #twitterImg, #facebookImg {
+  border: 5px solid #dfdfe0;
+  border-radius: 50%;
+  margin: 0 12px;
+  height: 5%;
+} */
+/*
+#getintouchpart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.fourboxes{
+  max-width: 263px;
+    height: 390px;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 50px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+    background: #fff;
+    border: 0px solid #dedede;
+    box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+}
+section.ij article h3{
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #107698;
+  color: white;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  padding: 0px 16px;
+  text-align: center;
+  min-height: 110px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+section.ij article p{
+  border-top: 5px solid #d1d1d0;
+  padding:
+}
+
+.fourboxes h3 {
+    font-size: 30px;
+    padding: 25px 20px 25px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 0px;
+    font-variant: small-caps;
+    background-color: #107698;
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: white;
+    min-height: 100px;
+}
+.fourboxes p{
+  padding: 20px 25px;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 1.4;
+} */
+/* just in case */
+.ij {
+  padding: 50px;
+  display: block;
+  background-color: #EDEff3;
+}
+
+.ij h2 {
+  display: block;
+  color: darkblue;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ij p {
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 0px;
+  line-height: 1.2;
+}
+
+.ij .fourboxes {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  width: 1000px;
+}
+
+.boxarticle {
+  display: block;
+}
+
+.ij .fourboxes h3 {
+  background-color: #0e6684;
+  font-weight: normal;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 10px 14px;
+  margin-top: 0px;
+  color: white;
+}
+
+.ij article h3 {
+  display: flex;
+  font-variant: small-caps;
+  min-height: 30px;
+  max-height: 30px;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ij .fourboxes p {
+  background-color: white;
+  color: #73858c;
+  font-size: 14px;
+  text-align: left;
+  margin: auto;
+  padding: 20px 20px;
+  line-height: 1.2;
+  max-width: 250px;
+}
+
+.ij article p {
+  display: inline-block;
+  border-top: 2px solid grey;
+  box-shadow: 0px 2px 2px 0px rgb(20%);
+  max-height: 220px;
+  width: 180px;
+  height: 220px;
+  align-items: center;
+}
+
+.kl {
+  padding: 50px;
+  display: block;
+  background-color: white;
+}
+
+.kl h2 {
+  display: block;
+  color: darkblue;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.kl p {
+  color: grey;
+  font-size: 12px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 0px;
+  line-height: 1.2;
+}
+
+.yellowlinespart {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 1000px;
+  margin: 40px auto 0;
+}
+
+.yellowlinespart .yellowlines {
+  max-width: 260px;
+  display: block;
+}
+
+.kl .yellowlinespart .yellowlines h4 {
+  color: #0c3c4d;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px orange solid;
+  font-variant: small-caps;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.kl .yellowlinespart .yellowlines p {
+  display: block;
+  color: #73858c;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px;
+  line-height: 1.2;
+  max-width: 600px;
+  margin: auto;
+}
+
+.mn {
+  padding: 50px;
+  display: block;
+  background-color: #EDEff3;
+  align-items: baseline;
+}
+
+.mn h2 {
+  display: block;
+  color: darkblue;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mn p {
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 0px;
+  line-height: 1.2;
+}
+
+.mn .lastcontent {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  width: 1000px;
+}
+
+.lastarticle {
+  display: block;
+}
+
+.mn .lastcontent h3 {
+  background-color: #0e6684;
+  font-weight: normal;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 10px 14px;
+  margin-top: 0px;
+  color: white;
+}
+
+.mn article h3 {
+  display: flex;
+  font-variant: small-caps;
+  min-height: 30px;
+  max-height: 30px;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mn .lastcontent p {
+  background-color: white;
+  color: #73858c;
+  font-size: 14px;
+  text-align: left;
+  margin: auto;
+  padding: 20px 20px;
+  line-height: 1.2;
+  max-width: 250px;
+}
+
+.mn article p {
+  display: inline-block;
+  border-top: 2px solid grey;
+  box-shadow: 0px 2px 2px 0px rgb(20%);
+  max-height: 220px;
+  width: 180px;
+  height: 220px;
+  align-items: center;
+}
+
+/* #getintouch h2 {
+  color: #0a465;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#getintouch section {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.handpicture{
+  display: block;
+}
+#getintouch .handpicture img {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 4px orange solid rgba(250, 180, 50, 1);
+border-radius: 50%;
+}
+
+#getintouch h3 {
+  font-size: 14px;
+  color: grey;
+  border-top: 2px #107698 solid;
+  border-bottom: 2px #107698 solid;
+  padding: 12px 24px;
+}
+
+.separator {
+  width: 2px;
+  height: 160px;
+  background-color: lightgrey;
+}
+
+.fourbuttons {
+  display: block;
+
+}
+#getintouch input {
+  background-color: #107698;
+  color: white;
+  font-size: 12px;
+  padding: 12px 20px;
+  width: 150px;
+  border-radius: 2px;
+  border: 2px solid orange;
+  box-shadow: 0px 2px 2px 0px rgb(0 0 0 / 50%);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.separatortwo {
+  width: 100%;
+  height: 2px;
+  background-color: lightgrey;
+  margin: 40px 0px;
+}
+
+#getintouch .socialbuttons {
+  display: inline-block;
+  border: 4px solid lightgrey;
+  border-radius: 50%;
+  margin: 0px 12px;
+  position: relative;
+  top: 0px;
+  transition: .4s;
+} */
+#GetInTouch {
+  display: block;
+}
+
+#GetInTouch h2 {
+  color: #0a465b;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+#GetInTouch section {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.SideLeft {
+  display: block;
+}
+
+#GetInTouch .SideLeft img {
+  display: block;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  border: 6px solid rgba(253, 181, 48, .7);
+  border-radius: 50%;
+}
+
+#GetInTouch section div:first-of-type>div {
+  font-size: 18px;
+  color: grey;
+  border-top: 1px solid #107698;
+  border-bottom: 1px solid #107698;
+  padding: 8px 24px;
+}
+
+.FirstSeparator {
+  width: 2px;
+  height: 220px;
+  background-color: lightgrey;
+}
+
+.SideRight {
+  display: block;
+}
+
+#GetInTouch input {
+  background-color: #107698;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  width: 200px;
+  border-radius: 4px;
+  border: 2px solid orange;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.SecondSeparator {
+  width: 100%;
+  height: 4px;
+  background-color: lightgrey;
+  margin: 40px 0;
+}
+
+.links {
+  display: block;
+}
+
+#GetInTouch div.links img {
+  display: inline-block;
+  border: 5px solid #dfdfe0;
+  border-radius: 50%;
+  margin: 0 12px;
+  position: relative;
+  top: 0px;
+  transition: .2s;
+}
+
+.GreyContentContainer {
+  display: block;
+    background-color: #EDEff3;
+  }
+  section.GreyContentContainer h2 {
+    color: #0a465b;
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 32px;
+}
+#trustedBy img {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  footer {
+    padding: 40px 0;
+    font-size: 16px;
+}
+  .GreyFooter {
+      background-color: #504f4f;
+      color: #c7c5c5;
+      text-align: center;
+      line-height: 1.2;
+  }
